@@ -15,6 +15,7 @@ $(document).ready(function(){
 /* new game */
 $(".new").click(function(){
 	window.location.reload(true);
+	randomAnswer();
 	
 });
 
